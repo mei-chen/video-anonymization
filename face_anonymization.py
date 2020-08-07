@@ -16,9 +16,11 @@ def detect_face(img):
 
     return face_img
 
-
+##############################################################
+#  CHANGE THE INPUT VIDEO NAME BELOW #
 video = cv2.VideoCapture('vid_input.mp4')  # change with location of input video
 print('Loading Video...')
+##############################################################
 
 if not video.isOpened():
     print("Error reading video file")
@@ -30,8 +32,10 @@ height = int(video.get(4))
 
 size = (width, height)
 
-# change with location of output video
+##############################################################
+# CHANGE THE OUTPUT VIDEO NAME BELOW #
 result = cv2.VideoWriter('output.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, size)
+##############################################################
 
 print('Working on Video', end=' ')
 
