@@ -1,8 +1,11 @@
 ## Anonymization
-Takes a video and blurs out the face
+Blurs out the face in any video
 
-## Instruction
-Load input video, change the input image directory in face_anonymization.py
+## Instructions
+1) Load input video in the folder directory
+2) Change the input video name in **face_anonymization.py**
+3) run `python face_anonymization.py`
+4) The anonmized video will be outputted in the directory
 
 ### Before
 <img width="1271" alt="after" src="https://user-images.githubusercontent.com/15370529/86611003-13f69b00-bf7c-11ea-99d9-9fd70efe7b07.png">
