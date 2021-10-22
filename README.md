@@ -1,5 +1,5 @@
-## Anonymization
-Blurs out the face in any video
+## What does it do?
+Takes a video and blurs out the face in video (if exists)
 
 ## Instructions
 1) Load input video in the folder directory
