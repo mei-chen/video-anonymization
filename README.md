@@ -1,5 +1,5 @@
 ## What does it do?
-Takes a video and blurs out the face in video (if exists)
+Takes a video and blurs out the faces in video
 
 ## Instructions
 1) Load input video in the folder directory
